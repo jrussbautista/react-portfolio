@@ -6,7 +6,7 @@
 	border: 1px solid transparent;
 	white-space: nowrap;
 	cursor: pointer;
-
+	border-radius: 4px;
 
 	&:focus {
 		outline: none;
@@ -19,6 +19,14 @@
 
 	&-block {
 		display: block;
+	}
+
+	&-icon {
+		display: inline-block;
+		vertical-align: middle;
+		fill: $color-primary;
+		width: 2.5rem;
+		margin-right: 0.3rem;
 	}
 
 
@@ -38,6 +46,12 @@
 			color: $color-primary;
 		}
 
+	}
+
+	&-outline-primary {
+		border: 1px solid $color-primary;
+		background-color: #fff;
+		color: $color-primary;		
 	}
 
 	&-light {
