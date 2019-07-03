@@ -26,9 +26,8 @@ class Contact extends Component {
     )
     .then((response) => {
       if(response.data.status === "success"){
-        this.setState({ isSending: false })
-          ();
-        console.log('success');
+        this.setState({ isSending: false, isShowMsg: true })
+          resetForm();
       }
     })
     .catch((error) => {
@@ -40,7 +39,7 @@ class Contact extends Component {
 
 	render() {
 
-  const {  isSending } = this.state;
+  const {  isSending, isShowMsg } = this.state;
 
 	return(
     <section className="site-section" id="contact">
@@ -51,6 +50,8 @@ class Contact extends Component {
           </svg>
         </div>          
         <h1 className="site-heading"> Contact </h1>
+
+
 
         <Formik
           className="site-form"
@@ -81,6 +82,10 @@ class Contact extends Component {
           render={({ handleChange, handleBlur, values, errors, handleSubmit, touched }) => (
            <Fragment>
             <form className="site-form" onSubmit={ handleSubmit }>
+              {
+                isShowMsg && <div class="alert alert-success">Thank you for sending me a message!</div>  
+              }
+                  
               <div className="row">
                 <div className="col-6"> 
                   <div className="site-form__form-group"> 
