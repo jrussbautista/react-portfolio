@@ -12,7 +12,7 @@ const portfolioData = {
 			"imageUrl": "images/portfolio/hataw-thumbnail.png",
 			"link": "https://hataw.ph/",
 			"codeLink": "",
-			"description": "Hataw is an Ecommerce website that I was the one who do front-end stuff.",
+			"description": "Hataw is an Ecommerce website that I was the one who converted the designs from Adobe XD templates to html web pages templates.",
 			"technology": ["HTML/CSS", "SASS(SCSS)", "Javascript", "Zepto Js / Jquery"],
 		},
 
