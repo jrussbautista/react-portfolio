@@ -26,12 +26,12 @@ const portfolioData = {
 		},
 		{
 			"id": 3,
-			"title": "Portfolio using React ",
-			"imageUrl": "images/portfolio/react-portfolio-thumbnail.png",
-			"link": "",
-			"codeLink": "https://github.com/jrussumbrella/react-portfolio",
-			"description": "My personal portfolio showcasing my projects that was written in React.",
-			"technology": ["HTML",  "SASS/SCSS", "React"]				
+			"title": "Hataw Ecommerce (Wap)",
+			"imageUrl": "images/portfolio/hataw-wap.png",
+			"link": "https://hataw.ph/wap/",
+			"codeLink": "",
+			"description": "Hataw Ecommerce (Wap) is a mobile web version.",
+			"technology": ["HTML",  "SASS/SCSS", "Zepto Js"]				
 		},
 		{
 			"id": 4,			
