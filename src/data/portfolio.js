@@ -10,12 +10,20 @@ const portfolioData = {
 			"id": 1,
 			"title": "Hataw Ecommerce Website",
 			"imageUrl": "images/portfolio/hataw-thumbnail.png",
-			"link": "https://hataw.ph/",
+			"link": "https://hataw.ph/shop/",
 			"codeLink": "",
-			"description": "Hataw is an Ecommerce website that I was the one who converted the designs from Adobe XD templates to html web pages templates.",
+			"description": "Hataw is an Ecommerce website that provides low cost and high quality products. Im the one who do the front end stuff in this project.",
 			"technology": ["HTML/CSS", "SASS(SCSS)", "Javascript", "Zepto Js / Jquery"],
 		},
-
+		{
+			"id": 2,
+			"title": "Hataw Web",
+			"imageUrl": "images/portfolio/hataw-web.png",
+			"link": "https://hataw.netlify.com/",
+			"codeLink": "",
+			"description": "Hataw Web is a projects that show all quality products. It is just for showcasing all the low cost and high quality products",
+			"technology": ["HTML/CSS", "SASS(SCSS)", "React"],
+		},
 		{
 			"id": 3,
 			"title": "Portfolio using React ",

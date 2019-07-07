@@ -50,9 +50,6 @@ class Contact extends Component {
           </svg>
         </div>          
         <h1 className="site-heading"> Contact </h1>
-
-
-
         <Formik
           className="site-form"
           initialValues={{
