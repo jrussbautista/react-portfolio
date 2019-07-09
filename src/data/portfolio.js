@@ -10,7 +10,7 @@ const portfolioData = {
 			"id": 0,
 			"title": "Movie Library using React/Redux",
 			"imageUrl": "images/portfolio/movie-app-thumbnail.png",
-			"link": "",
+			"link": "https://movie-db-app.netlify.com/discover/popular/",
 			"codeLink": "https://github.com/jrussumbrella/react-movie-library",
 			"description": "This projects fetches data from themovied.org api. It basically display all popular, top rated, upcoming movies from the api. View and search info to certain movie.",
 			"technology": ["HTML/CSS", "SASS(SCSS)/ CSS Modules/ Styled Component", "React", "Redux"],
