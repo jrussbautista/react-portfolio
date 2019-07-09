@@ -7,6 +7,15 @@ const portfolioData = {
 	"intro": "Let's keep building amazing stuff.",
 	"projects": [
 		{
+			"id": 0,
+			"title": "Movie Library using React/Redux",
+			"imageUrl": "images/portfolio/movie-app-thumbnail.png",
+			"link": "",
+			"codeLink": "https://github.com/jrussumbrella/react-movie-library",
+			"description": "This projects fetches data from themovied.org api. It basically display all popular, top rated, upcoming movies from the api. View and search info to certain movie.",
+			"technology": ["HTML/CSS", "SASS(SCSS)/ CSS Modules/ Styled Component", "React", "Redux"],
+		},	
+		{
 			"id": 1,
 			"title": "Hataw Ecommerce Website",
 			"imageUrl": "images/portfolio/hataw-thumbnail.png",
@@ -100,15 +109,9 @@ const portfolioData = {
 	"workExp": [
 		{
 			"title": "Front-end Developer",
-			"date" : 'June 2018 - June 2019',
+			"date" : 'June 2017- June 2019',
 			"description": "Converting mockup designs into web pages, making sure it's mobile responsive and cross browser compatible. Maintaing and improving website.",
 			"company": 'E-Creations Inc.'
-		},
-		{
-			"title": "IT Instructor",
-			"date" : 'June 2017 - June 2018',
-			"company": 'STI Alaminos',
-			"description": "Teached web  and mobile programming."
 		},
 		{
 			"title": "Junior Software Engineer (Intern)",
